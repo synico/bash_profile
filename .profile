@@ -25,3 +25,9 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+
+# nick enviroments
+if [ -f $HOME/.shell/enviroments.sh ]; then
+  . $HOME/.shell/enviroments.sh;
+fi
+
