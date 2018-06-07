@@ -31,3 +31,7 @@ if [ -f $HOME/.shell/enviroments.sh ]; then
   . $HOME/.shell/enviroments.sh;
 fi
 
+if [ -f $HOME/.shell/alias.sh ]; then
+  . $HOME/.shell/alias.sh;
+fi
+
