@@ -1,4 +1,0 @@
-# grep
-alias grep="grep --color"
-alias egrep="egrep --color"
-alias fgrep="fgrep --color"
