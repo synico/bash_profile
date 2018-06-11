@@ -27,3 +27,16 @@
 /scm/
 /workspace/
 /.wget-hsts
+/.Xauthority
+/.atom/
+/.bashrc
+/.compiz/
+/.dmrc
+/.nv/
+/.pki/
+/.profile
+/.sogouinput/
+/.sunpinyin/
+/.xsession-errors
+/.xsession-errors.old
+
