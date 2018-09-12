@@ -2,7 +2,7 @@
 
 mkdir -p /opt/java/
 cd /opt/java/
-cp ~/data/jdk*.tar.gz ./
+cp $1/jdk*.tar.gz ./
 
 for jdk in $(ls jdk*.tar.gz)
 do
