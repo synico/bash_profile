@@ -107,7 +107,7 @@ under the License.
       <vendor>sun</vendor>
     </provides>
     <configuration>
-      <jdkHome>/opt/java/jdk-10.0.1</jdkHome>
+      <jdkHome>/usr/local/java/jdk-10.0.1</jdkHome>
     </configuration>
   </toolchain>
 
