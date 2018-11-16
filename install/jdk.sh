@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mkdir -p /opt/java/
-cd /opt/java/
+mkdir -p /usr/local/java/
+cd /usr/local/java/
 cp $1/jdk*.tar.gz ./
 
 for jdk in $(ls jdk*.tar.gz)
