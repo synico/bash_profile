@@ -1,7 +1,7 @@
 #!/bin/bash
 
-mkdir -p /opt/scala/
-cd /opt/scala/
+mkdir -p /usr/local/scala/
+cd /usr/local/scala/
 cp $1/scala*.tgz ./
 
 for sdk in $(ls scala*.tgz)

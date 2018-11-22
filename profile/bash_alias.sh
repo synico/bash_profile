@@ -11,3 +11,5 @@ alias grep='grep --color=auto'
 # git
 alias gittl='git rev-parse --show-toplevel'
 
+# misc
+alias tq='curl wttr.in/shanghai?lang=zh'
