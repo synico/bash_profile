@@ -1,0 +1,25 @@
+[Desktop Entry]
+Categories=
+Comment=An ISQL tool
+Comment[en]=An ISQL tool
+Encoding=UTF-8
+Exec=/usr/local/squirrel-sql/squirrel-sql.sh 
+GenericName=
+GenericName[en]=
+Icon=/usr/local/squirrel-sql/icons/acorn.icns
+MimeType=
+Name=SQuirreL SQL Client
+Name[en]=SQuirreL SQL Client
+Path=/usr/local/squirrel-sql
+ServiceTypes=
+SwallowExec=
+SwallowTitle=
+Terminal=
+TerminalOptions=
+Type=Application
+URL=
+X-KDE-SubstituteUID=false
+X-KDE-Username=root
+
+# created by com.izforge.izpack.util.os.Unix_Shortcut $Revision$
+# $Id$

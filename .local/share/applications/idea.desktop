@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=IntelliJ IDEA
+Comment=Java Editor
+GenericName=IntelliJ IDEA
+Exec=/opt/idea/idea-IC-183.4284.148/bin/idea.sh %U
+Icon=/opt/idea/idea-IC-183.4284.148/bin/idea.svg
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Development;RevisionControl;
+MimeType=text/plain;
