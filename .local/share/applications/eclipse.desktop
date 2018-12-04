@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Eclipse
+Comment=Java Editor
+GenericName=Eclipse
+Exec=/opt/eclipse/current/eclipse %U
+Icon=/opt/eclipse/current/icon.xpm
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Development;RevisionControl;
+MimeType=text/plain;
