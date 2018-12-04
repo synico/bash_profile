@@ -5,3 +5,4 @@ git config --global alias.st status
 git config --global alias.ci commit
 
 git config --global core.quotepath false
+git config --global push.default simple
