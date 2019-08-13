@@ -23,3 +23,5 @@ echo "########################pinta has been installed##########################
 sudo apt-get -y install wireshark
 echo "########################wireshark has been installed###############################"
 
+sudo apt-get -y install tree
+echo "########################tree has been installed###############################"

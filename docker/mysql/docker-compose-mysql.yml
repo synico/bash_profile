@@ -1,0 +1,17 @@
+version: '3'
+services:
+  db:
+    image: mysql:5.6.44
+    restart: always
+    container_name: mysql_5.6.44
+    hostname: mysql
+    volumes:
+      - data:/var/lib/mysql
+      - ./mysql/config/my.cnf:/etc/my.cnf
+      - ./mysql/init:/docker-entrypoint-initdb.d/
+    ports:
+      - "33306:3306"
+
+volumes:
+  data:
+    driver: local

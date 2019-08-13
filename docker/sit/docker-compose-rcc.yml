@@ -2,11 +2,11 @@ version: '3.7'
 services:
   db:
     image: postgres:9.6.12
-    container_name: apm_db_sit
-    hostname: apm_db
+    container_name: cpm_db
+    hostname: pg_server
     restart: always
     ports:
-      - "54322:5432"
+      - "54321:5432"
     networks:
       - backend
     environment:
@@ -21,5 +21,5 @@ networks:
     
 volumes:
   ge_apm:
-    name: ge_apm
+    name: rcc_cpm
 
