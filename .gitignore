@@ -38,4 +38,6 @@
 /.sunpinyin/
 /.xsession-errors
 /.xsession-errors.old
+/docker/mysql5/data/
+
 
