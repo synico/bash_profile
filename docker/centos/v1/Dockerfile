@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER nick xuewei.liu@ge.com
+LABEL maintainer="synico@qq.com"
 
 RUN buildDeps='net-tools curl telnet iputils-ping' \
     && yum install -y wget \
