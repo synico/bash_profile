@@ -13,3 +13,5 @@ alias gittl='git rev-parse --show-toplevel'
 
 # misc
 alias tq='curl wttr.in/shanghai?lang=zh'
+alias calc='bc'
+alias sysanalyze='systemd-analyze'
