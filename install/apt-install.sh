@@ -25,3 +25,6 @@ echo "########################wireshark has been installed######################
 
 sudo apt-get -y install tree
 echo "########################tree has been installed###############################"
+
+sudo apt-get -y install zsh
+echo "########################zsh has been installed###############################"
