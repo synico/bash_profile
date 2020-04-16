@@ -35,3 +35,5 @@ echo "######################## tmux has been installed #########################
 sudo apt-get -y install docker.io
 echo "######################## docker.io has been installed ###############################"
 
+sudo apt-get -y install okular
+echo "######################## okular has been installed ###############################"
