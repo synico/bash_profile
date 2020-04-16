@@ -28,3 +28,7 @@ echo "########################tree has been installed###########################
 
 sudo apt-get -y install zsh
 echo "########################zsh has been installed###############################"
+
+sudo apt-get -y install docker.io
+echo "########################docker.io has been installed###############################"
+
