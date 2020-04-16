@@ -18,3 +18,6 @@ echo "######## start to download VirtualBox ########"
 
 echo "######## complete to download VirtualBox ########"
 
+echo "######## start to download maven ########"
+wget -c https://mirror.bit.edu.cn/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz -P $1
+echo "######## complete to download maven ########"

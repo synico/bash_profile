@@ -27,11 +27,11 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 # nick enviroments
-if [ -f $HOME/.shell/bash_env.sh ]; then
-  . $HOME/.shell/bash_env.sh;
+if [ -f $HOME/.config/bash_env.sh ]; then
+  . $HOME/.config/bash_env.sh;
 fi
 
-if [ -f $HOME/.shell/bash_alias.sh ]; then
-  . $HOME/.shell/bash_alias.sh;
+if [ -f $HOME/.config/bash_alias.sh ]; then
+  . $HOME/.config/bash_alias.sh;
 fi
 
