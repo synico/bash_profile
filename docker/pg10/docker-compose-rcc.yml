@@ -1,8 +1,8 @@
 version: '3.7'
 services:
   pg_10:
-    image: postgres:10.10
-    container_name: rcc_db
+    image: postgres:10.12
+    container_name: cpm_db
     hostname: pg_server
     restart: always
     ports:
@@ -21,5 +21,5 @@ networks:
     
 volumes:
   pg10:
-    name: pg_10
+    name: cpm_data
 

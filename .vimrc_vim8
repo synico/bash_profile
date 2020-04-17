@@ -1,0 +1,13 @@
+set number
+set encoding=utf-8
+set wrap
+set hlsearch
+set ts=4
+set expandtab
+set autoindent
+syntax on
+
+let g:srcery_transparent_background=1
+
+colorscheme srcery
+
