@@ -2,7 +2,7 @@ version: '3.7'
 services:
   dw_db:
     image: mysql:5.6.39
-    container_name: dosewatch_mysql
+    container_name: dw_mysql
     hostname: dw_server
     restart: always
     ports:
