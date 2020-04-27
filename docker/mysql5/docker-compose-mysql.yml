@@ -15,8 +15,18 @@ services:
       MYSQL_USER: serphydose
       MYSQL_PASSWORD: Stra67000
     volumes:
-      - ${MYSQL_DATA_DIR-./data/mysql}:/var/lib/mysql
-      - ${MYSQL_LOG_DIR-./logs/mysql}:/var/log/mysql
+      #- ${MYSQL_DATA_DIR-./data/mysql}:/var/lib/mysql
+      #- ${MYSQL_LOG_DIR-./logs/mysql}:/var/log/mysql
+      - mysql_data:/var/lib/mysql
+      - mysql_log:/var/log/mysql
+      - /home/nick/data:/root/data
 
 networks:
   backend:
+
+volumes:
+  mysql_data:
+    name: mysql_data
+  mysql_log:
+    name: mysql_log
+
