@@ -2,7 +2,7 @@
 sudo apt-get -y install vim
 echo "######################## vim has been installed ###############################"
 
-#sudo apt-get -y install git
+sudo apt-get -y install git
 #echo "########################git has been installed ###############################"
 
 sudo apt-get -y install curl

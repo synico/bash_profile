@@ -1,12 +1,12 @@
 version: '3.7'
 services:
-  pg_10:
+  pgsql:
     image: postgres:10.12
-    container_name: cpm_db
+    container_name: postgresql
     hostname: pg_server
     restart: always
     ports:
-      - "54322:5432"
+      - "54321:5432"
     networks:
       - backend
     environment:
@@ -21,5 +21,5 @@ networks:
     
 volumes:
   pg10:
-    name: cpm_data
+    name: pg_data
 
