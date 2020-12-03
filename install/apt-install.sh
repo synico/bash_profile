@@ -37,3 +37,6 @@ echo "######################## docker.io has been installed ####################
 
 sudo apt-get -y install okular
 echo "######################## okular has been installed ###############################"
+
+sudo apt-get -y install powerline-fonts
+echo "######################## powerline-fonts has been installed ###############################"
