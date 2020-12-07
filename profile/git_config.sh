@@ -6,3 +6,4 @@ git config --global alias.ci commit
 
 git config --global core.quotepath false
 git config --global push.default simple
+git config --global -add core.filemode false
